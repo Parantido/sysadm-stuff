@@ -9,7 +9,7 @@
 #==============================================================================
 
 # Install Zsh
-sudo apt-get update ; sudo apt-get -y install zsh
+sudo apt-get update ; sudo apt-get -y install git zsh
 
 # Retrieve Oh My ZSH Repositories
 git clone --depth=1 https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
