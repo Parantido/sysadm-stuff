@@ -42,5 +42,8 @@ END
 # Change Default Shell
 chsh -s $(which zsh)
 
+# Suppress configuration alert
+echo "POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true" >> ~/.zshrc
+
 # Switch Shell
 `which zsh`
